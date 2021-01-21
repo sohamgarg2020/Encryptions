@@ -1,6 +1,6 @@
 alpha_list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-def vignere(text, number):
+def vignere_encrypt(text, number):
     char_letter = ""
     for word in text.split():
         for char in word:
